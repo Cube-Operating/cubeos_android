@@ -8,7 +8,7 @@ Getting started
 
 To initialize your local repository using the CubeOS trees:
 ```
-repo init -u https://github.com/harryugoji/cubeos_android.git -b cubeos-23.2 --git-lfs
+repo init -u https://github.com/Cube-Operating/cubeos_android.git -b cubeos-23.2 --git-lfs
 ```
 Then to sync up:
 ```
@@ -16,7 +16,7 @@ repo sync
 ```
 
 Most projects are still fetched from LineageOS. Projects that CubeOS customises
-are forked under `harryugoji/cubeos_*` and pointed at their `cubeos-23.2` branch
+are forked under `Cube-Operating/cubeos_*` and pointed at their `cubeos-23.2` branch
 in this manifest.
 
 Keeping up with LineageOS

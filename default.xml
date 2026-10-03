@@ -730,6 +730,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs,pdk-cw-fs" remote="aosp" />
+  <project path="packages/apps/AppHub" name="Cube-Operating/cubeos_android_packages_apps_AppHub" revision="refs/heads/cubeos-22.2" />
   <project path="packages/apps/Settings" name="Cube-Operating/cubeos_android_packages_apps_Settings" revision="refs/heads/cubeos-22.2" groups="pdk-fs,pdk-cw-tvc" />
   <project path="packages/apps/SettingsIntelligence" name="Cube-Operating/cubeos_android_packages_apps_SettingsIntelligence" revision="refs/heads/cubeos-22.2" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="Cube-Operating/cubeos_android_packages_apps_Stk" revision="refs/heads/cubeos-22.2" groups="apps_stk,pdk-fs" />

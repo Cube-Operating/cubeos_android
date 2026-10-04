@@ -733,6 +733,7 @@
   <project path="packages/apps/AppHub" name="Cube-Operating/cubeos_android_packages_apps_AppHub" revision="refs/heads/cubeos-22.2" />
   <project path="packages/apps/CubeAccount" name="Cube-Operating/cubeos_android_packages_apps_CubeAccount" revision="refs/heads/cubeos-22.2" />
   <project path="packages/apps/Cubemail" name="Cube-Operating/cubeos_android_packages_apps_Cubemail" revision="refs/heads/cubeos-22.2" />
+  <project path="device/cube/ygf_f35" name="Cube-Operating/cubeos_android_device_cube_ygf_f35" revision="refs/heads/cubeos-22.2" />
   <project path="packages/apps/Settings" name="Cube-Operating/cubeos_android_packages_apps_Settings" revision="refs/heads/cubeos-22.2" groups="pdk-fs,pdk-cw-tvc" />
   <project path="packages/apps/SettingsIntelligence" name="Cube-Operating/cubeos_android_packages_apps_SettingsIntelligence" revision="refs/heads/cubeos-22.2" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="Cube-Operating/cubeos_android_packages_apps_Stk" revision="refs/heads/cubeos-22.2" groups="apps_stk,pdk-fs" />

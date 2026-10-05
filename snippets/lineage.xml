@@ -57,7 +57,8 @@
   <project path="tools/extract-utils" name="Cube-Operating/cubeos_android_tools_extract-utils" revision="refs/heads/cubeos-22.2" />
   <project path="vendor/apn" name="Cube-Operating/cubeos_android_vendor_apn" revision="refs/heads/main" />
   <project path="vendor/crowdin" name="Cube-Operating/cubeos_android_vendor_crowdin" revision="refs/heads/cubeos-22.2" />
-  <project path="vendor/lineage" name="Cube-Operating/cubeos_android_vendor_lineage" revision="refs/heads/cubeos-22.2" />
+  <project path="vendor/lineage" name="Cube-Operating/cubeos_android_vendor_lineage" revision="refs/heads/cubeos-contisx-apps" />
+  <project path="vendor/contisx" name="Cube-Operating/cubeos_android_vendor_contisx" revision="refs/heads/cubeos-22.2" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />

@@ -747,7 +747,7 @@
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp" />
   <project path="packages/apps/ThemePicker" name="Cube-Operating/cubeos_android_packages_apps_ThemePicker" revision="refs/heads/cubeos-22.2" groups="pdk-fs,sysui-studio" />
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="aosp" />
-  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
+  <project path="packages/apps/Trebuchet" name="Cube-Operating/cubeos_android_packages_apps_Trebuchet" revision="refs/heads/cubeos-contisx-apps" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project path="packages/apps/TvFeedbackConsent" name="platform/packages/apps/TvFeedbackConsent" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/TvSettings" name="Cube-Operating/cubeos_android_packages_apps_TvSettings" revision="refs/heads/cubeos-22.2" groups="pdk-fs" />
   <project path="packages/apps/TvSystemUI" name="Cube-Operating/cubeos_android_packages_apps_TvSystemUI" revision="refs/heads/cubeos-22.2" groups="pdk-fs" />

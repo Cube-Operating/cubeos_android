@@ -1,3 +1,25 @@
+CubeOS
+======
+
+CubeOS is built from this manifest (branch `cubeos-contisx-apps`): LineageOS 22.2 / Android 15,
+with the CubeOS apps (Cube Home, Cube Island, the CubeOS app switcher, ...) from Cube-Operating.
+
+```
+sudo apt install git-lfs && git lfs install   # needed: some prebuilts (Chromium WebView) are Git LFS objects
+repo init -u https://github.com/Cube-Operating/cubeos_android.git -b cubeos-contisx-apps --git-lfs
+repo sync -c -j16
+source build/envsetup.sh
+lunch lineage_gsi_arm64-bp1a-userdebug
+m -j$(nproc)                                  # NINJA_ARGS="-k 0" m ... lists every failure in one run
+```
+
+Without git-lfs, `external/chromium-webview/prebuilt/*/webview.apk` are 134-byte pointer files and
+the build stops at `webview ... enforce_uses_libraries` ("failed opening zip").
+
+For a DSU (Dynamic System Update) package of the GSI: `gzip -c out/target/product/generic_arm64/system.img
+> system_raw.gz` and `stat -c %s .../system.img > system.size` (the size goes in KEY_SYSTEM_SIZE).
+
+
 LineageOS
 ===========
 
